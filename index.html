@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body id="main">
+    <div id="playersName" class="players">
+        <label>Nome do jogador 1: <input type="text" placeholder="player1" id="player1Name" class="inputPlayer"></label>
+        <label>Nome do jogador 2: <input type="text" placeholder="player2" id="player2Name" class="inputPlayer"></label>
+    </div>
+    <h1 class="center">Tic-Tac-Toe</h1>
+    <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+     </div>
+     <h1 id="turno" class="center">Turno de: </h1>
+    <div class="winning-message center" id="winningMessage">
+        <div id="winningMessageText"></div>
+     </div>
+     <div class="center">     
+        <button id="restartButton" class="center">Restart</button>
+    </div>
+
+</body>
+</html>
